@@ -1,0 +1,331 @@
+fileFormatVersion: 2
+guid: 85563b0573056ee46a893c6bf541c964
+timeCreated: 1456908056
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ninjaboi_running_0
+    21300002: ninjaboi_running_1
+    21300004: ninjaboi_running_2
+    21300006: ninjaboi_running_3
+    21300008: ninjaboi_running_4
+    21300010: ninjaboi_running_5
+    21300012: ninjaboi_running_6
+    21300014: ninjaboi_running_7
+    21300016: ninjaboi_running_8
+    21300018: ninjaboi_running_9
+    21300020: ninjaboi_running_10
+    21300022: ninjaboi_running_11
+    21300024: ninjaboi_running_12
+    21300026: ninjaboi_running_13
+    21300028: ninjaboi_running_14
+    21300030: ninjaboi_running_15
+    21300032: ninjaboi_running_16
+    21300034: ninjaboi_running_17
+    21300036: ninjaboi_running_18
+    21300038: ninjaboi_running_19
+    21300040: ninjaboi_running_20
+    21300042: ninjaboi_running_21
+    21300044: ninjaboi_running_22
+    21300046: ninjaboi_running_23
+    21300048: ninjaboi_running_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ninjaboi_running_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1747
+        width: 255
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_running_1
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1745
+        width: 255
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_running_2
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1747
+        width: 255
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_running_3
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 1747
+        width: 255
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_running_4
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 1747
+        width: 255
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_running_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1312
+        width: 255
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_running_6
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1310
+        width: 254
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_running_7
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1312
+        width: 255
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_running_8
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 1312
+        width: 254
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_running_9
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 1313
+        width: 255
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_running_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 876
+        width: 254
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_running_11
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 876
+        width: 255
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_running_12
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 875
+        width: 255
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_running_13
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 875
+        width: 254
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_running_14
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 877
+        width: 255
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_running_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 255
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_running_16
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 440
+        width: 255
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_running_17
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 440
+        width: 255
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_running_18
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 439
+        width: 255
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_running_19
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 438
+        width: 255
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_running_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 254
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_running_21
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 2
+        width: 254
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_running_22
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 2
+        width: 255
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_running_23
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 2
+        width: 255
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_running_24
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 2
+        width: 255
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

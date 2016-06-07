@@ -1,0 +1,330 @@
+fileFormatVersion: 2
+guid: 7147aaf712de9504c8f963809863bfa4
+timeCreated: 1458616924
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ninjaboi_stand_attack_0
+    21300002: ninjaboi_stand_attack_1
+    21300004: ninjaboi_stand_attack_2
+    21300006: ninjaboi_stand_attack_3
+    21300008: ninjaboi_stand_attack_4
+    21300010: ninjaboi_stand_attack_5
+    21300012: ninjaboi_stand_attack_6
+    21300014: ninjaboi_stand_attack_7
+    21300016: ninjaboi_stand_attack_8
+    21300018: ninjaboi_stand_attack_9
+    21300020: ninjaboi_stand_attack_10
+    21300022: ninjaboi_stand_attack_11
+    21300024: ninjaboi_stand_attack_12
+    21300026: ninjaboi_stand_attack_13
+    21300028: ninjaboi_stand_attack_14
+    21300030: ninjaboi_stand_attack_15
+    21300032: ninjaboi_stand_attack_16
+    21300034: ninjaboi_stand_attack_17
+    21300036: ninjaboi_stand_attack_18
+    21300038: ninjaboi_stand_attack_19
+    21300040: ninjaboi_stand_attack_20
+    21300042: ninjaboi_stand_attack_21
+    21300044: ninjaboi_stand_attack_22
+    21300046: ninjaboi_stand_attack_23
+    21300048: ninjaboi_stand_attack_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ninjaboi_stand_attack_0
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 2494
+        width: 260
+        height: 407
+      alignment: 9
+      pivot: {x: .470107079, y: .296307534}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_stand_attack_1
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 2492
+        width: 257
+        height: 422
+      alignment: 9
+      pivot: {x: .439516306, y: .2912696}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_stand_attack_2
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 2495
+        width: 268
+        height: 423
+      alignment: 9
+      pivot: {x: .432332039, y: .285638183}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_stand_attack_3
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 2494
+        width: 275
+        height: 423
+      alignment: 9
+      pivot: {x: .415212631, y: .291763067}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_stand_attack_4
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 2495
+        width: 272
+        height: 423
+      alignment: 9
+      pivot: {x: .421568036, y: .295265287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_stand_attack_5
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1945
+        width: 279
+        height: 449
+      alignment: 9
+      pivot: {x: .423983216, y: .277318746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_stand_attack_6
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1943
+        width: 269
+        height: 467
+      alignment: 9
+      pivot: {x: .421157092, y: .266438454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_stand_attack_7
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 1945
+        width: 329
+        height: 481
+      alignment: 9
+      pivot: {x: .361862421, y: .260638654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_stand_attack_8
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 1945
+        width: 380
+        height: 462
+      alignment: 9
+      pivot: {x: .300670087, y: .263910741}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_stand_attack_9
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 1937
+        width: 432
+        height: 448
+      alignment: 9
+      pivot: {x: .268556386, y: .297110409}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_stand_attack_10
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1395
+        width: 465
+        height: 393
+      alignment: 9
+      pivot: {x: .252402425, y: .36893934}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_stand_attack_11
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1392
+        width: 532
+        height: 367
+      alignment: 9
+      pivot: {x: .220938087, y: .400932461}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_stand_attack_12
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 1371
+        width: 577
+        height: 334
+      alignment: 9
+      pivot: {x: .200694174, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_stand_attack_13
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 1363
+        width: 591
+        height: 307
+      alignment: 9
+      pivot: {x: .197531253, y: .578952849}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_stand_attack_14
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 900
+        width: 615
+        height: 344
+      alignment: 9
+      pivot: {x: .189628929, y: .579268336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_stand_attack_15
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 844
+        width: 645
+        height: 381
+      alignment: 9
+      pivot: {x: .180577949, y: .666997612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_stand_attack_16
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 915
+        width: 537
+        height: 298
+      alignment: 9
+      pivot: {x: .223536432, y: .57117027}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_stand_attack_17
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 938
+        width: 492
+        height: 295
+      alignment: 9
+      pivot: {x: .235199228, y: .561623156}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_stand_attack_18
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 398
+        width: 269
+        height: 403
+      alignment: 9
+      pivot: {x: .427877545, y: .307434529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_stand_attack_19
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 15
+        width: 258
+        height: 407
+      alignment: 9
+      pivot: {x: .449868143, y: .301382571}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_stand_attack_20
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 381
+        width: 271
+        height: 408
+      alignment: 9
+      pivot: {x: .416478217, y: .309794337}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_stand_attack_21
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 404
+        width: 247
+        height: 414
+      alignment: 9
+      pivot: {x: .473818153, y: .304740578}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_stand_attack_22
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 404
+        width: 259
+        height: 410
+      alignment: 9
+      pivot: {x: .437577307, y: .310722232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_stand_attack_23
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 406
+        width: 258
+        height: 402
+      alignment: 9
+      pivot: {x: .449867904, y: .306955367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninjaboi_stand_attack_24
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 407
+        width: 262
+        height: 385
+      alignment: 9
+      pivot: {x: .438292056, y: .31522882}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

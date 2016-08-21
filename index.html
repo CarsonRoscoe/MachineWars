@@ -1,1 +1,152 @@
-My page
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Carson Roscoe</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<a href="https://carsonroscoe.github.io"><h1 id="title">Carson Roscoe</h1></a>
+							<p>Software Developer</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<!-- 1. Hash link (scrolls to a different section within the page)
+								    <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+								 2. Standard link (sends the user to another page/site)
+								    <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li> -->
+							<ul>
+								<li><a href="#intro" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Introduction</span></a></li>
+								<li><a href="#description" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-th-list">Description</span></a></li>
+								<li><a href="#pictures" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Screenshots</span></a></li>
+								<li><a href="#source" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-github">Source Code</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>-->
+							<!--<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>-->
+							<li><a href="https://github.com/carsonroscoe/machinewars" class="icon fa-github"><span class="label">Github</span></a></li>
+							<!--<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>-->
+							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Project -->
+					<section id="intro" class="one dark cover">
+						<div class="container">
+							<h2 class="alt"><strong>Machine Wars</strong></h2>
+							<p>Machine learning game made in C# that utilizes neural networks and genetic algorithms</p>
+						</div>
+					</section>			
+					<div id="description">		
+						<div class="container">
+							<h2>Description</h2>
+
+							<p>Machine Wars is project I created to solidify my understanding of machine learning using
+							neural networks and genetic algorithms. Created over the span of 8 hours, I created this as a personal challenge to try 
+							and make a neural network from scratch with a custom genetic algorithm 
+							for breeding the neural networks. I created this by following my knowledge of the NEAT algorithm, but taking a slightly 
+							different approach to it by using whiskers to get inputs from the world, which also allowed me to have a range of how
+							hard this input was being pressured (is the whisker slightly touching something? Is it pressing against it hard? etc.).</p>
+
+							<h3>"Game" Portion</h3>
+							<p>30 players spawn. Every 6 seconds the game ends and ranks how the AI performed. The top 15 players breed with 
+							one-another, while the bottom 15 players are killed and replaced by the children of the top 15 players. Every one 
+							of the final 30 players is then slightly mutated before the next round.</p>
+
+							<h3>Neural-Network Setup</h3>
+							<p>Every person in the game had 5 whiskers which they used to sense the world.
+							<br>
+							Each whisker had its own genome.
+							<br>
+							Each whisker would respond to touch, the closer to the person along the whisker the collision is, the stronger the sensation.
+							<br>
+							Each whisker responds to three types of collisions: players (enemies), dangerous things (enemy swords in mid swing) and neutrals (walls).
+							<br>
+							Each player/whisker had six instinctual responses: Rotate left, rotate right, move forward, move backwards, swing a sword or do nothing.
+							<br>
+							Each whisker had thresholds for everything, essentially giving each the power to think "how close does x have to be to the player before I react, and which of my instincts (if any) will I react with).</p>
+
+							<h3>Genetic-Algorithm Setup</h3>
+							<p>After 6 seconds the game would score the players and breed the next generation. Their scoring followed the following logic:</p>
+							<ul>
+								<li>Killing gave points</li>
+								<li>Killing spree's gave extra points to encourage more killing</li>
+								<li>Moving gave points, however it was a flat amount. Moving a lot was not better than moving a bit, but both were better than not moving at all.</li>
+								<li>Staying alive gave points for every two seconds it was alive to encourage not dying to dangerous things</li>
+							</ul>
+							<p>The top 15 placing people were mutated slightly and then bred. Essentially child A got every even member of parent A's 
+							genome and every odd member of parent B's genome, while child B got every odd member of parent A's genome and every even 
+							member of parent B's genome. This made the two children exact opposites, while still being direct descendants of their parents.
+							After this, the children would both mutate slightly before the next round.</p>
+
+						</div>
+					</div>
+					<div id="pictures">		
+						<div class="container">
+
+							<header>
+								<h2>Screen Shots</h2>
+							</header>
+							
+						</div>
+					</div>
+					<div id="source">		
+						<div class="container">
+
+							<header>
+								<h2>Source Code</h2>
+							</header>
+							
+							<p>The source code can be found on Github.  <a href="https://github.com/carsonroscoe/machinewars" class="icon fa-github"> View Source Code.</a></p>
+						</div>
+					</div>
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; 2016. All rights reserved.</li></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
